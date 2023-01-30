@@ -1,16 +1,16 @@
-#include <stdio.h>
-/**
- * main _ Entry point
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	int n;
+#include "main.h"
 
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		putchar(n);
-	}
-	putchar('\n');
-	return (0);
+/**
+ * _putchar - a command
+ * print_alphabet - a function that prints the alphabet, in lowercase
+ */
+
+void print_alphabet(void)
+{
+char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+	_putchar('\n');
 }
