@@ -1,26 +1,19 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * test_islower - Test the _islower function
+ * _islower - check the code for Holberton School students.
  *
- * @n: Number to pass to _islower function
- */
-void test_islower(int n)
-{
-	int r;
-
-	r = islower(n);
-	putchar(r + '0');
-	putchar('\n');
-}
-
-/**
- * main - check the code for Holberton School students.
+ * @c: is a variable int
  *
  * Return: Always 0.
  */
-int main(void)
+
+int _islower(int c)
 {
-	test_islower('H');
-	return (0);
+char i;
+for (i = 'a'; i < 'z'; i++)
+{
+if (c == i)
+return (1);
+}
+return (0);
 }
