@@ -5,7 +5,7 @@
  *@s: sdkfjsd
  *Return: void
  */
-void _atoi(char *s)
+int _atoi(char *s)
 {
 
 
