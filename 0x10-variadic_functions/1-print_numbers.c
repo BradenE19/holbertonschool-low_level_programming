@@ -2,7 +2,10 @@
 #include "variadic_functions.h"
 
 /**
- *
+ * print_numbers - function that prints numbers
+ * @seperator: string to print
+ * @n: number of ints passed to func
+ * Return: 0
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
