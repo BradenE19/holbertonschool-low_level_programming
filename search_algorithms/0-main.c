@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <0-linear.c>
+#include <stddef.h>
+#include "0-linear.c"
 
 /**
  * main - Entry point
