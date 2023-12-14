@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include "0-linear.c"
+#include "search_algos.h"
 
 /**
  * main - Entry point
